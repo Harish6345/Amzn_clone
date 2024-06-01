@@ -1,0 +1,280 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+.nav-main
+{
+   height: 100px;
+   width: 100%;
+   margin-top: 0px;
+   
+ 
+}
+.nav-firstpart
+{
+    background-color:#0f1111;
+    height:45% ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.nav-firstpart > .navbar-logo
+{
+    height: 50px;
+    width: 100px;
+}
+.logo
+{
+    background-image: url('./amzn-logos.png');
+    background-size: cover;
+    height: 53px;
+    width: 90px;
+    position: relative;
+    bottom: 10px;
+    
+}
+.navfirsttext > h5
+{
+        color: rgba(255, 255, 255, 0.732);
+}
+.search-bar{
+    width: 50%;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+}
+.navsectxt > h5
+{
+        color: rgba(255, 255, 255, 0.732);
+}
+.thirdsectxt > h5
+{
+        color: rgba(255, 255, 255, 0.732);
+}
+.search-bar > img
+{   
+    position: relative;
+    right: 10px;
+}
+.nav-fourthpart
+{   margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search-bar > p{
+    position: relative;
+    left: 30px;
+}
+.nav-secpart
+{
+    background-color: #232F3E;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    
+}
+.nav-secpart >.nav-secpart1
+{
+    display: flex;
+    gap:5px;
+    margin-left: 20px;
+    
+    
+}
+.nav-secpart >h4:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.nav-secpart1 >h4:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.middelimg 
+{   display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    width: 80%;
+    margin-top: -17px;
+
+}
+.middelimg >img
+{
+    width: 200%;
+
+}
+.navfirsttext:hover
+{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.h5:hover
+{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.navsectxt:hover
+{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.thirdsectxt:hover
+{
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+.h4:hover
+{
+    border: 1px solid white;
+    border-radius: 2px;
+
+}   
+.box-container
+{   margin-top: -200px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.box{
+     height: 350px;
+     width: 19%;
+     background-color:white;
+}
+.imgs,.imgs2
+{
+    width: 80%;
+    height: 45%;
+    margin-bottom: 10px;
+    
+    
+}
+.main-box,.main-box1    
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.main-box1 > .imgs
+{
+    width: 45%;
+   
+   
+    
+}
+.main-box1 > .imgs2
+{
+    width: 45%;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.imgs > img,p
+{
+    width: 100%;
+}
+.imgs2 > img,p
+{
+    width: 100%;
+}
+.main-box2      
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40%;
+    text-align: center;
+}
+.main-box3
+{
+     height:40% ;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}  
+.box-container1
+{   margin-top: -1100px;
+    margin-bottom: 200px;
+}
+.img1-1>img{
+    width: 100%;
+}
+.img2-1>img{
+    width: 100%;
+}
+.thirdsec
+{   
+    margin-top: 20px;
+    height: 300px;
+    width: 80%;
+   
+    margin-left: 180px;
+    margin-bottom: 250px;
+    display: flex;
+    gap: 20px;
+}
+.back
+{
+    background-color: lightblue;    
+    height: 2000px;
+}
+.thirdsectxt1
+{
+    position: relative;
+    left:170px;
+}
+footer
+{
+    height: 600px;
+    background-color:black;
+    margin-top: -60px;
+}
+.fourboxes
+{
+    height: 300px;
+    
+   background-color: #232F3E;
+    position: relative;
+    top:60px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.xox
+{
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  position: relative;
+  top:50px;
+   
+}
+.last-end
+{
+   height: 100px;
+   background-color: #232F3E;
+   position: relative;
+   top:200px;
+   color: white;
+}
+.last-end > h2{
+    text-align: center;
+    position: relative;
+    top:40px;
+    text-transform: uppercase;
+}
